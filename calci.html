@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="calulator.css">
+</head>
+<body>
+    <div id="calculator"> 
+    <input id="display" readonly>
+    <div id="keys">
+    <button onclick="appendDisplay('7')" class="keys2">7</button>
+    <button onclick="appendDisplay('8')" class="keys2">8</button>
+    <button onclick="appendDisplay('9')" class="keys2">9</button>
+    <button onclick="del()" id="delete" >🗑</button>
+    <button onclick="appendDisplay('4')"class="keys2">4</button>
+    <button onclick="appendDisplay('5')"class="keys2">5</button>
+    <button onclick="appendDisplay('6')"class="keys2">6</button>
+    <button onclick="appendDisplay('*')">x</button>
+    <button onclick="appendDisplay('1')"class="keys2">1</button>
+    <button onclick="appendDisplay('2')"class="keys2">2</button>
+    <button onclick="appendDisplay('3')"class="keys2">3</button>
+    <button onclick="appendDisplay('-')">-</button>
+    <button onclick="appendDisplay('.')"class="keys2">.</button>
+    <button onclick="appendDisplay('0')"class="keys2">0</button>
+    <button onclick="appendDisplay('+')" id="add">+</button>
+    <button onclick="appendDisplay('/')" >/</button>
+    <button onclick="clearAll()" id="clear">C</button>
+    <button onclick="calculate()" id="equals">=</button>
+
+    </div>
+    </div>
+    <script src="calci.js"></script>
+</body>
+</html>
